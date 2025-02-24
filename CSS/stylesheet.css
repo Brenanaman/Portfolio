@@ -69,28 +69,65 @@ nav {
     top: 0px;
 }
 
+.nav-item {
+    margin-left: 5rem;
+    font-size: 16pt;
+    align-items: flex-end;
+}
+
+.nav-item a:hover {
+    color:rgba(151, 189, 122, 1)
+}
+
+
+.dropdown-content a:hover {
+    color: rgba(56, 56, 56, 1);
+}
+
 .Logo {
     text-decoration: none;
     text-align: left;
     color:rgba(151, 189, 122, 1);
     font-weight: 300;
+    margin-left: -4rem;
+    margin-right: 12rem;
 
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(151, 189, 122, 1);
+    min-width: 160px;
+    z-index: -1000;
+    top: 4.2rem;
+    text-align: center;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.dropdown {
+    position: relative;
+}
 nav a {
     flex: 1;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
     padding-left: 4vw;
     color: white;
     font-size: 12pt;
     font-family: "Outfit", sans-serif;
     font-weight: 700;
+    float: right;
 }
 
 .active {
     color:rgba(151, 189, 122, 1);
 }
+
+
 
 #Tuma {
     color:white;
@@ -106,7 +143,7 @@ nav a {
  margin-right: 10vw;
  border-radius: 15px;
  text-align: center;
- margin-bottom: 0.6vw;
+ margin-bottom: 0.88vw;
  padding: 0.5rem;
  text-decoration: none;
 }
@@ -130,6 +167,14 @@ img {
     gap: 100px;
 }
 
+.grid5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+    margin-top: 5%;
+}
+
 .grid-item {
     grid-row: 1 / 2;
     display: flex;
@@ -147,6 +192,15 @@ img {
     margin-left: 5vw;
     padding-left: 5px;
 }
+
+.grid-item3 {
+    grid-row: 1 / 3;
+    grid-column: 3 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .grid-item2 h1{
     margin-top: 5vw;
 }
@@ -154,9 +208,19 @@ img {
     margin-top: -4vw;
 }
 
+
 .grid-item h1, .grid-item h2, .grid-item h3 {
     margin: 0;
     padding: 0;
+}
+
+.grid-item3 h1, .grid-item3 h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#first {
+    padding-top: 15vw;
 }
 
 
@@ -231,6 +295,10 @@ img {
     transform: scale(1.05);
 }
 
+#contact3:hover {
+    transform: scale(1.05);
+}
+
 .career {
     font-weight: 700;
     color: rgba(151, 189, 122, 1);
@@ -245,6 +313,17 @@ img {
     margin-right: 5px;
     font-weight: 700;
     font-size: 16pt;
+}
+#contact3 {
+    background-color: rgba(151, 189, 122, 1);
+    border-radius: 15px;
+    border: 1px rgba(56, 56, 56, 1) solid;
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 16pt;
+    padding: 5px;
 }
 
 #Tumaimg2 {
@@ -332,6 +411,14 @@ footer a {
     justify-content: center;
 }
 
+.portfolio-pic2 {
+    width: 80%;
+    border: 1px rgba(56, 56, 56, 1) solid;
+    justify-content: center;
+    filter: grayscale(0%);
+    align-items: right;
+}
+
 .portfolio-pic:hover {
     filter: grayscale(0%);
     transform: scale(1.05);
@@ -343,4 +430,17 @@ footer a {
 
 #deutsch {
     width: 50%;
+}
+
+#stash {
+    padding-left: 2vw;
+}
+
+.pics {
+    align-items: end;
+}
+
+#typecon {
+    width: 80%;
+    filter: grayscale(0%);
 }
