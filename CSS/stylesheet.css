@@ -4,6 +4,17 @@ html {
     font-size: 12pt;
 }
 
+p {
+    color: rgba(56, 56, 56, 1);
+}
+
+h2 {
+    color: rgba(56, 56, 56, 1);
+}
+
+h3 {
+    color: rgba(56, 56, 56, 1);
+}
 
 body {
     overflow-x: hidden;
