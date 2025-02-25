@@ -70,20 +70,20 @@ p {
 nav {
     display: flex;
     width: 104vw;
+    height: 5.5vw;
     background-color:rgba(56, 56, 56, 1);
     margin-left: -2vw;
     margin-right: -2vw;
     margin-top:-2vw;
-    align-items: flex-end;
     position: sticky;
     z-index: 1000;
     top: 0px;
+    align-items: center;
 }
 
 .nav-item {
     margin-left: 5rem;
     font-size: 16pt;
-    align-items: flex-end;
 }
 
 .nav-item a:hover {
@@ -100,7 +100,7 @@ nav {
     text-align: left;
     color:rgba(151, 189, 122, 1);
     font-weight: 300;
-    margin-left: -4rem;
+    margin-left: -2rem;
     margin-right: 12rem;
 
 }
@@ -111,11 +111,21 @@ nav {
     background-color: rgba(151, 189, 122, 1);
     min-width: 160px;
     z-index: -1000;
-    top: 4.2rem;
+    top: 3.45rem;
     text-align: center;
+    align-items: center;
   }
+
+.dropdown-content a {
+    margin-top: -1vw;
+    margin-bottom: -1vw;
+}
+
+
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
   }
 
 
@@ -125,13 +135,14 @@ nav {
 nav a {
     flex: 1;
     text-align: center;
-    padding: 1.5rem;
-    padding-left: 4vw;
+    padding: 2rem;
+    padding-left: 2vw;
+    padding-right:2vw;
     color: white;
     font-size: 12pt;
     font-family: "Outfit", sans-serif;
     font-weight: 700;
-    float: right;
+    text-decoration: none;
 }
 
 .active {
@@ -344,7 +355,7 @@ img {
 }
 
 .contact-body {
-    background-color: rgba(151, 189, 122, 1);
+    background-color: rgba(151, 189, 122, 0.5);
 }
 
 .contact-foot {
@@ -381,7 +392,13 @@ footer a {
 }
 
 .white {
+    text-shadow:  
+    -1px -1px 0 rgba(151, 189, 122, 1),  
+     1px -1px 0 rgba(151, 189, 122, 1),  
+    -1px  1px 0 rgba(151, 189, 122, 1),  
+     1px  1px 0 rgba(151, 189, 122, 1);
     color: white;
+
 }
 
 .grid3 {
