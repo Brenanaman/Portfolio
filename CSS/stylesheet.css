@@ -500,6 +500,7 @@ footer a {
     html {
         font-family: "Outfit", sans-serif;
         font-size: 1vw;
+        overflow-x: hidden;
     }
     
     html, body {
