@@ -520,12 +520,11 @@ footer a {
     
     .lines{
         margin-top: -30vw;
-        margin-left: -2vw;
-        margin-right: -2vw;
         margin-bottom: -2vw;
+        margin-left: -2vw;
         object-fit: cover;
         z-index: -1;
-        width: 150vw;
+        width: 102vw;
         height: 40vw;
         overflow: hidden;
         position: relative;
@@ -575,13 +574,12 @@ footer a {
     
     nav {
         display: flex;
-        width: 108vw;
+        width: 102vw;
         height: 10vw;
         max-height: fit-content;
         flex-wrap: wrap;
         background-color:rgba(56, 56, 56, 1);
         margin-left: -2vw;
-        margin-right: -2vw;
         margin-top:-2vw;
         position: sticky;
         z-index: 1000;
