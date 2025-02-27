@@ -529,7 +529,7 @@ footer a {
         margin-left: -2vw;
         object-fit: cover;
         z-index: -1;
-        width: 102vw;
+        width: 100vw;
         height: 40vw;
         overflow: hidden;
         position: relative;
@@ -579,12 +579,11 @@ footer a {
     
     nav {
         display: flex;
-        width: 102vw;
+        width: 100vw;
         height: 10vw;
         max-height: fit-content;
         flex-wrap: wrap;
         background-color:rgba(56, 56, 56, 1);
-        margin-left: -2vw;
         margin-top:-2vw;
         position: sticky;
         z-index: 1000;
@@ -898,8 +897,6 @@ footer a {
         background-color:rgba(151, 189, 122, 1);
         text-align: center;
         color:rgba(56, 56, 56, 1);
-        margin-left: -2vw;
-        margin-right: -2vw;
         margin-bottom: -2vw;
         align-items: center;
     }
