@@ -3,7 +3,7 @@
 
 html {
     font-family: "Outfit", sans-serif;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 html, body {
@@ -69,7 +69,7 @@ h2 {
 }
 
 p {
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 
@@ -191,6 +191,7 @@ img {
     grid-template-rows: repeat(1, 1fr);
     gap: 10vw;
     margin-top: 10vw;
+    margin-right: 3vw;
 }
 
 .grid2 {
@@ -318,7 +319,7 @@ img {
 
 .name {
     display: inline-block;
-    border-right: 4px solid rgba(56, 56, 56, 1);
+    border-right: 0.3vw solid rgba(56, 56, 56, 1);
     white-space: nowrap;
     overflow: hidden;
     max-width: 90%;
@@ -499,7 +500,7 @@ footer a {
 @media only screen and (max-width: 768px) {
     html {
         font-family: "Outfit", sans-serif;
-        font-size: 1vw;
+        font-size: 0.4rem;
     }
 
     html {
@@ -569,7 +570,7 @@ footer a {
     }
     
     p {
-        font-size: 2vw;
+        font-size: 2rem;
         width: 100%;
         text-align: center;
         color: rgba(56, 56, 56, 1);
@@ -665,7 +666,7 @@ footer a {
      background-color: white;
      color:rgba(151, 189, 122, 1);
      margin: auto;
-     border-radius: 15px;
+     border-radius: 2vw;
      text-align: center;
      margin-bottom: 0.88vw;
      padding: 1vw;
@@ -786,12 +787,12 @@ footer a {
     
     #hire {
         background-color: rgba(56, 56, 56, 1);
-        border-radius: 15px;
+        border-radius: 2vw;
         text-decoration: none;
         color: white;
         margin-right: 5px;
         font-weight: 700;
-        font-size: 1.5vw;
+        font-size: 2vw;
     
     }
     
@@ -813,7 +814,7 @@ footer a {
     
     .name {
         display: inline-block;
-        border-right: 4px solid rgba(56, 56, 56, 1);
+        border-right: 0.4vw solid rgba(56, 56, 56, 1);
         white-space: nowrap;
         overflow: hidden;
         max-width: 90%;
@@ -854,7 +855,7 @@ footer a {
         color: white;
         margin-right: 5px;
         font-weight: 700;
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
     #contact3 {
         background-color: rgba(151, 189, 122, 1);
