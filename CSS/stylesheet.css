@@ -504,12 +504,10 @@ footer a {
 
     html {
         overflow: hidden;
-        height: 100%;
       }
       
       body {
         overflow-y: auto; /* Only allow vertical scrolling on body */
-        height: 100vh;
       }
     
       html, body {
