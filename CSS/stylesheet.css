@@ -503,16 +503,17 @@ footer a {
     }
 
     html {
-        overflow-x: hidden;
+        overflow: hidden;
         height: 100%;
       }
       
       body {
         overflow-y: auto; /* Only allow vertical scrolling on body */
+        height: 100vh;
       }
     
       html, body {
-        overflow: auto;
+        overflow-x: hidden;
         margin: 0;
         padding: 0;
         width: 100%; /* Forces the width to match the screen */
