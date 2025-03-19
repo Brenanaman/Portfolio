@@ -503,6 +503,7 @@ footer a {
     }
 
     html {
+        overflow: hidden;
         height: 100%;
       }
       
