@@ -114,6 +114,58 @@ nav {
 
 }
 
+#port {
+    margin-bottom: 20px;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+}
+
+.filter-buttons :first-child {
+    margin-left: 2vw;
+}
+
+.filter-buttons button {
+    padding: 8px 15px;
+    margin: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(151, 189, 122, 0.5);
+    border-radius: 5px;
+}
+
+.filter-buttons button:hover {
+    background-color: rgba(151, 189, 122, 1);
+}
+
+.grid7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.grid7 div {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.portfolio-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Hide all items initially */
+.grid7 div {
+    display: none;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -608,6 +660,60 @@ footer a {
         margin-right: 12vw;
     
     }
+
+    #port {
+        margin-bottom: 20px;
+    }
+    
+    .filter-buttons {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .filter-buttons :first-child {
+        margin-left: 2vw;
+    }
+    
+    .filter-buttons button {
+        padding: 8px 15px;
+        margin: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+        border: none;
+        background-color: rgba(151, 189, 122, 0.5);
+        border-radius: 5px;
+    }
+    
+    .filter-buttons button:hover {
+        background-color: rgba(151, 189, 122, 1);
+    }
+    
+    .grid7 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .grid7 div {
+        width: 250px;
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .portfolio-pic {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    /* Hide all items initially */
+    .grid7 div {
+        display: none;
+    }
     
     .dropdown-content {
         display: none;
@@ -791,7 +897,7 @@ footer a {
         color: white;
         margin-right: 5px;
         font-weight: 700;
-        font-size: 2vw;
+        font-size: 3rem;
     
     }
     
@@ -854,7 +960,7 @@ footer a {
         color: white;
         margin-right: 5px;
         font-weight: 700;
-        font-size: 2vw;
+        font-size: 3rem;
     }
     #contact3 {
         background-color: rgba(151, 189, 122, 1);
@@ -891,7 +997,7 @@ footer a {
     
     footer {
         margin-top: -1vw;
-        padding-bottom: 5vw;
+        padding-bottom: 20vw;
         background-color:rgba(151, 189, 122, 1);
         text-align: center;
         color:rgba(56, 56, 56, 1);
