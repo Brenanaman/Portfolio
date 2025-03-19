@@ -642,7 +642,7 @@ footer a {
     
     nav {
         display: flex;
-        height: 10vw;
+        height: 15vw;
         max-height: fit-content;
         flex-wrap: wrap;
         background-color:rgba(56, 56, 56, 1);
@@ -652,10 +652,9 @@ footer a {
         align-items: center;
         
     }
-    
     .nav-item {
-        margin-left: 3.8vw;
-        font-size: 1.5vw;
+        margin-left: 1.5vw;
+        font-size: 2.5vw;
         margin-top: 2vw;
     }
     
@@ -668,8 +667,8 @@ footer a {
         text-align: left;
         color:rgba(151, 189, 122, 1);
         font-weight: 300;
-        margin-left: -2vw;
-        margin-right: 12vw;
+        margin-left: 1.5vw;
+        margin-right: 10vw;
     
     }
 
@@ -765,7 +764,7 @@ footer a {
         flex: 1;
         text-align: left;
         color: white;
-        font-size: 2.5vw;
+        font-size: 3vw;
         font-family: "Outfit", sans-serif;
         font-weight: 700;
         text-decoration: none;
@@ -780,9 +779,9 @@ footer a {
     #Tuma {
         color:white;
         font-size: 4vw;
-        margin-top: -4px;
+        margin-top: -4vw;
         font-weight: bold;
-        margin-left: -1vw;
+        margin-left: 2.5vw;
         margin-right: 0vw;
     }
     
