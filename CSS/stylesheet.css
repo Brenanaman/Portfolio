@@ -695,6 +695,7 @@ footer a {
         border: none;
         background-color: rgba(151, 189, 122, 0.5);
         border-radius: 5px;
+        color: rgba(56, 56, 56, 1);
     }
     
     .filter-buttons button:hover {
@@ -1015,7 +1016,7 @@ footer a {
     
     footer {
         margin-top: -1vw;
-        padding-bottom: 25vw;
+        padding-bottom: 30vw;
         background-color:rgba(151, 189, 122, 1);
         text-align: center;
         color:rgba(56, 56, 56, 1);
@@ -1060,16 +1061,24 @@ footer a {
     }
     
     .grid3 {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-top: 10vw;
-        align-self: center;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-content: center;
+        align-items: center;
         margin: auto;
         margin-left: 3vw;
         margin-right: 3vw;
-        gap: 1vw;
+        gap: 3vw;
+        height: auto;
+        
+    }
+
+    .grid3 h3{
+        font-size: 3.5rem;
+    }
+
+    .grid3 p{
+        font-size: 2.5rem;
     }
 
     #resume {
