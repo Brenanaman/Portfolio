@@ -815,8 +815,8 @@ footer a {
         align-items: center;
         text-align: center;
         margin: auto;
-        margin-left: 3vw;
-        margin-right: 3vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
     
     .grid5 {
@@ -858,8 +858,8 @@ footer a {
         font-size: 10vw;
     }
     .grid-item2 p {
-        width: 50%;
-        font-size: 2vw;
+        width: 80%;
+        font-size: 3rem;
     }
     
     .grid-item3 h1, .grid-item3 h2 {
