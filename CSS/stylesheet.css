@@ -503,7 +503,6 @@ footer a {
     }
 
     html {
-        overflow: hidden;
         height: 100%;
       }
       
@@ -513,7 +512,7 @@ footer a {
       }
     
       html, body {
-        overflow-x: auto;
+        overflow-x: hidden;
         margin: 0;
         padding: 0;
         width: 100%; /* Forces the width to match the screen */
