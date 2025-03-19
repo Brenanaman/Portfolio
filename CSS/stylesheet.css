@@ -513,7 +513,7 @@ footer a {
       }
     
       html, body {
-        overflow-x: hidden;
+        overflow-x: auto;
         margin: 0;
         padding: 0;
         width: 100%; /* Forces the width to match the screen */
