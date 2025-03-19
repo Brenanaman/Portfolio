@@ -715,6 +715,10 @@ footer a {
         padding: 10px;
         border-radius: 5px;
     }
+
+    .grid7 h2 {
+        font-size: 3.5rem;
+    }
     
     .portfolio-pic3 {
         width: 100%;
